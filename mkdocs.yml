@@ -1,0 +1,118 @@
+site_name: AOE3 AI Scripting Guide
+site_url: https://aoe3mc.github.io/ai-guide/
+site_author: Thinot Mandresy
+site_description: A guide to AI scripting in Age of Empires III.
+
+repo_name: aoe3mc/ai-guide
+repo_url: https://github.com/aoe3mc/ai-guide
+
+copyright: Copyright &copy; 2023 <a href="http://github.com/thinotmandresy" target="_blank" rel="noopener noreferrer">Thinot Mandresy</a>
+
+theme:
+  name: material
+  language: en
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: yellow
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: img/favicon.png
+  icon:
+    logo: material/book-open-page-variant
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/aoe3mc
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/7zRgTaPrrv
+
+markdown_extensions:
+  - abbr
+  - attr_list
+  - admonition
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      use_pygments: true
+      linenums: true
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.snippets:
+      auto_append:
+        - includes/tooltips.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Introduction:
+      - index.md
+      - Getting Started: getting-started.md
+  - The XS Language:
+      - xs/index.md
+      - Comments: xs/comments.md
+      - Variables: xs/variables.md
+      - Operators: xs/operators.md
+      - Strings: xs/strings.md
+      - Conditionals: xs/conditionals.md
+      - Loops: xs/loops.md
+      - Labels: xs/labels.md
+      - Functions: xs/functions.md
+      - Rules: xs/rules.md
+      - Variables Scope: xs/variables-scope.md
+      - Vectors: xs/vectors.md
+  - AI Scripting:
+      - ai/index.md
+  - Reference:
+      - reference/index.md
+      - Keywords: reference/keywords.md
+      - Built-in Constants:
+          - XS Constants: reference/constants/xs.md
+          - Game Data Constants: reference/constants/game-data.md
+      - Built-in Functions:
+          - XS Functions: reference/functions/xs.md
+          - KB Functions: reference/functions/kb.md
+          - AI Functions: reference/functions/ai.md
