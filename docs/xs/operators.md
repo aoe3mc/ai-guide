@@ -28,7 +28,6 @@ section talks about the most frequently used operators in XS.
 
 | Operator     | Expression                       | Description                                      | Example                                 | Result        |
 | ------------ | -------------------------------- | ------------------------------------------------ | --------------------------------------- | ------------- |
-| `#!cpp !`    | `#!cpp !a`                       | Turns `#!cpp a` into its opposite.               | `#!cpp !true`                           | `#!cpp false` |
 | `#!cpp &&`   | `#!cpp a && b`                   | Checks if `#!cpp a` and `#!cpp b` are both true. | `#!cpp true && false`                   | `#!cpp false` |
 | &#124;&#124; | `#!cpp a` &#124;&#124; `#!cpp b` | Checks if `#!cpp a` or `#!cpp b` is true.        | `#!cpp true` &#124;&#124; `#!cpp false` | `#!cpp true`  |
 

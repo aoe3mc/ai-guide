@@ -29,7 +29,15 @@ If the function does not return anything, the return type should be `#!cpp void`
 
 ### 1.2. Name
 
-Function names follow the same rules as [variable names](variables.md#212-name).
+Function names follow the same rules as [variable names](variables.md#212-name):
+
+- Names are case-sensitive, e.g. `foo` and `Foo` are two different names.
+- Names can only contain letters, numbers and underscores. Diacritics are not
+  allowed.
+- Names must start with a letter or an underscore.
+- Names cannot be the same as a [keyword](../reference/keywords.md).
+- Functions cannot have the same name as a [variable](variables.md), constant,
+  [rule](rules.md), [rule group](rules.md#12-group-name) or another function.
 
 ### 1.3. Parameters
 

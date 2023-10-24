@@ -102,6 +102,7 @@ nav:
       - Labels: xs/labels.md
       - Functions: xs/functions.md
       - Rules: xs/rules.md
+      - Includes: xs/includes.md
       - Variables Scope: xs/variables-scope.md
       - Vectors: xs/vectors.md
   - AI Scripting:
