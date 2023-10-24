@@ -4,7 +4,15 @@ Labels are used to jump to a specific point in the script. They are defined by
 the `label` keyword followed by the label name and a semicolon. Labels can be
 used with the `goto` keyword to jump to the label.
 
-Label names follow the same rules as [variable names](variables.md#212-name).
+Label names follow the same rules as [variable names](variables.md#212-name):
+
+- Names are case-sensitive, e.g. `foo` and `Foo` are two different names.
+- Names can only contain letters, numbers and underscores. Diacritics are not
+  allowed.
+- Names must start with a letter or an underscore.
+- Names cannot be the same as a [keyword](../reference/keywords.md).
+- Labels cannot have the same name as a [variable](variables.md), constant,
+  [function](functions.md), [rule](rules.md) or [rule group](rules.md#2-rule-groups).
 
 !!! note "Syntax of labels"
 
