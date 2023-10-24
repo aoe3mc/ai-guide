@@ -46,19 +46,31 @@ showAIEchoes
 
 ## 3. Setting up a local mod
 
-Since it is apparently not possible to load custom scripts made completely from
-scratch in a scenario, we will have to set up a local mod to override one of the
-default scripts.
+We will be using a local mod to store our AI scripts.
 
 1. Navigate to the **Local Mods Folder**.
-2. Create a new folder with any name you want. This will be the name of the mod.
-   In this guide, we will name it **Mods Guide AI**.
+2. Create a new folder with any name you want. This will be the name of the
+   mod. In this guide, we will name it **Mods Guide AI**.
 3. Inside the **Mods Guide AI** folder, create a folder named **Game**.
 4. Inside the **Game** folder, create a folder named **AI**.
+
+When you're done, run the game. You should see the mod in **Tools > Mods**.
+While you follow this guide, it is highly recommended to disable all other mods
+so that your environment is as similar as possible to this guide.
 
 ## 4. Creating and loading a script
 
 ### 4.1. For a custom scenario
+
+Normally, AI scripts are published either as part of a mod or as a mod on their
+own. Unfortunately, it appears that it is not possible to load a mod's AI
+script in a scenario if the script does not override one of the default scripts
+(or included in a script that overrides one of the default scripts, but in all
+cases, one of the default scripts must be overridden).
+
+Luckily, there is one default script that appears to be unused: **Age3AI.xs**.
+In this guide, we will override this script so that our experimentations don't
+interfere with the campaign or skirmish games.
 
 #### 4.1.1. Creating a script
 
@@ -101,6 +113,11 @@ void main(void)
 
 !!! warning "This will override the default AI script for all civilizations."
 
+    It is possible to change a specific civilization's AI script by overriding
+    the corresponding **.personality** file. For example, to change the
+    British AI script, you would override **elizabeth.personality**. However,
+    this won't be covered in this guide _(yet)_.
+
 #### 4.2.1. Creating a script
 
 1. Navigate to **Mods Guide AI > Game > AI**.
@@ -117,7 +134,8 @@ void main(void)
 
 #### 4.2.2. Loading the script
 
-There's no need to load the script since it overrides the default **aiLoaderStandard.xs**.
+There's no need to load the script since it overrides the default
+**aiLoaderStandard.xs**.
 
 ## 5. Testing the script
 
