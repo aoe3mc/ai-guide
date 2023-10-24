@@ -76,6 +76,31 @@ type as the variable.
     bool shouldAttack = false;
     ```
 
+!!! tip "Naming convention for variables"
+
+    In XS, if variables are [local](variables-scope.md#1-local-variables), they
+    are usually written in camelCase, which means that the first word starts
+    with a lowercase letter and the following words start with an uppercase
+    letter.
+
+    If variables are [global](variables-scope.md#2-global-variables), they are
+    usually prefixed with `g` (for global).
+
+    ```cpp title="Age3AI.xs"
+    // Global variables.
+    bool gNoMoreTrees = false; // Set to true when trees become scarce.
+    int gForwardBaseID = -1;  // ID of the forward base, -1 if none.
+
+    void main(void)
+    {
+        // Local variables.
+        float playerHandicap = (cDifficultyCurrent + 1) / 4.0;
+        int numStartingUnits = 0;
+    }
+    ```
+
+    !!! info "`cDifficultyCurrent` is a built-in [constant](#23-constants)."
+
 ### 2.2. Assignment
 
 Assigning a variable means changing the value of an existing variable. The
@@ -151,3 +176,19 @@ defined. They are defined in the same way as variables, except that the
     // The speed of light is a constant.
     const int c = 299792458;
     ```
+
+!!! tip "Naming convention for constants"
+
+    In XS, constants are usually prefixed with `c`. Here are some examples:
+
+    ```cpp title="Game Folder\Game\AI\core\aiGlobals.xs"
+    extern const int cForwardBaseStateNone = -1;    // None exists, none in progress
+    extern const int cForwardBaseStateBuilding = 0; // Fort wagon exists, but no fort yet.
+    extern const int cForwardBaseStateActive = 1;   // Base is active, defend and train plans there.
+    ```
+
+    !!! question "What does `#!cpp extern` mean?"
+
+        `#!cpp extern` is a keyword that allows variables and constants to be
+        defined in one file and used in another. See [Variables
+        Scope](variables-scope.md) for more information.
