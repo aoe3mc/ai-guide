@@ -46,7 +46,7 @@ There are a few rules to follow when naming variables:
 - Names must start with a letter or an underscore.
 - Names cannot be the same as a [keyword](../reference/keywords.md).
 - Variables cannot have the same name as a [function](functions.md),
-  [rule](rules.md) or [rule group](rules.md#2-rule-groups).
+  [rule](rules.md) or [rule group](rules.md#12-group-name).
 - Variables cannot have the same name as another variable,
   [constant](#3-constants) or [label](labels.md) in the same
   [scope](variables-scope.md).

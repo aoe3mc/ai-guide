@@ -12,7 +12,7 @@ Label names follow the same rules as [variable names](variables.md#212-name):
 - Names must start with a letter or an underscore.
 - Names cannot be the same as a [keyword](../reference/keywords.md).
 - Labels cannot have the same name as a [variable](variables.md), constant,
-  [function](functions.md), [rule](rules.md) or [rule group](rules.md#2-rule-groups).
+  [function](functions.md), [rule](rules.md) or [rule group](rules.md#12-group-name).
 
 !!! note "Syntax of labels"
 

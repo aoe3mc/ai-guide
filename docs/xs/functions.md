@@ -37,7 +37,7 @@ Function names follow the same rules as [variable names](variables.md#212-name):
 - Names must start with a letter or an underscore.
 - Names cannot be the same as a [keyword](../reference/keywords.md).
 - Functions cannot have the same name as a [variable](variables.md), constant,
-  [rule](rules.md), [rule group](rules.md#2-rule-groups) or another function.
+  [rule](rules.md), [rule group](rules.md#12-group-name) or another function.
 
 ### 1.3. Parameters
 
