@@ -105,6 +105,7 @@ nav:
       - Includes: xs/includes.md
       - Variables Scope: xs/variables-scope.md
       - Vectors: xs/vectors.md
+      - Arrays: xs/arrays.md
   - AI Scripting:
       - ai/index.md
   - Reference:
