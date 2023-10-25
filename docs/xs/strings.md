@@ -39,9 +39,12 @@ It makes more sense when the value is a variable:
 
 !!! example "Example of string concatenation with a variable"
 
-    ```cpp
-    int diceRoll = 1 + aiRandInt(6); // 1-6
-    aiEcho("You rolled a " + diceRoll + ".");
+    ```cpp title="Age3AI.xs"
+    void main(void)
+    {
+        int diceRoll = 1 + aiRandInt(6); // 1-6
+        aiEcho("You rolled a " + diceRoll + ".");
+    }
     ```
 
 ## 3. Escape sequences
@@ -56,8 +59,8 @@ differently.
 
 Here's a list of the most frequently used escape sequences:
 
-| Escape sequence | Character    | Example              | Result                        |
-| --------------- | ------------ | -------------------- | ----------------------------- |
+| Escape sequence | Character    | Example                    | Result                        |
+| --------------- | ------------ | -------------------------- | ----------------------------- |
 | `#!cpp \n`      | Newline      | `#!cpp "Hello\nworld!"`    | `Hello`<br>`world!`           |
 | `#!cpp \t`      | Tab          | `#!cpp "Hello\tworld!"`    | Cannot be shown in this table |
 | `#!cpp \"`      | Double quote | `#!cpp "Hello \"world\"!"` | `Hello "world"!`              |

@@ -98,7 +98,7 @@ definition.
 
 !!! example "Example of a rule definition"
 
-    ```cpp
+    ```cpp title="Age3AI.xs"
     void main(void)
     {
         aiEcho("It has begun!");
@@ -130,7 +130,7 @@ Rules can be enabled with the `xsEnableRule` function.
     This is the same example as above, but now the rule is disabled by default
     and we enable it manually.
 
-    ```cpp
+    ```cpp title="Age3AI.xs"
     void main(void)
     {
         aiEcho("It has begun!");
@@ -163,7 +163,7 @@ themselves with the `xsDisableSelf` function.
 
 !!! example "Disabling a rule"
 
-    ```cpp
+    ```cpp title="Age3AI.xs"
     void main(void)
     {
         aiEcho("It has begun!");
@@ -226,7 +226,7 @@ All rules that have the same group name will be part of the same group.
 
 !!! example "Example of a rule group"
 
-    ```cpp
+    ```cpp title="Age3AI.xs"
     void main(void)
     {
         aiEcho("It has begun!");
@@ -264,7 +264,7 @@ anywhere above the call.
 
 !!! example "Calling a rule"
 
-    ```cpp
+    ```cpp title="Age3AI.xs"
     rule SayHello
     inactive
     {
