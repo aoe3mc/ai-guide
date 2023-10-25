@@ -106,6 +106,7 @@ nav:
       - Variables Scope: xs/variables-scope.md
       - Vectors: xs/vectors.md
       - Arrays: xs/arrays.md
+      - Good Practices: xs/good-practices.md
   - AI Scripting:
       - ai/index.md
   - Reference:
