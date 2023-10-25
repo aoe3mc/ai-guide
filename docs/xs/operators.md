@@ -118,8 +118,8 @@ precedence.
 
 Parentheses can be used to override the default precedence of operators. For
 example, in the expression `#!cpp 2 + 3 * 4`, the multiplication is evaluated
-first, then the addition. However, if we want the addition to be evaluated
-first, we can use parentheses: `#!cpp (2 + 3) * 4`.
+first, then the addition. However, if you want the addition to be evaluated
+first, you can use parentheses: `#!cpp (2 + 3) * 4`.
 
 Parentheses can be nested, and the expression inside the innermost pair of
 parentheses is evaluated first.
