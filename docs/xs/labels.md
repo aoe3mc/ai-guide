@@ -42,13 +42,6 @@ Label names follow the same rules as [variable names](variables.md#212-name):
     00:00:00 (0): P#1 (Player 1) Hello from below the label! Goodbye!
     ```
 
-!!! tip "Naming convention for labels"
-
-    Since labels are rarely used, there's no naming convention for them. You can
-    use whatever style you want but it's important to be consistent.
-
-    In this guide, we will prefix labels with an underscore (`_`).
-
 !!! warning "Duplicate labels"
 
     The game does not prevent you from creating multiple labels with the same

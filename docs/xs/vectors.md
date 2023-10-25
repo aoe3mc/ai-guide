@@ -12,7 +12,7 @@ used to represent a direction, and can have other, less common uses.
 
 ## 1. Creating a vector
 
-To create a vector, we use the `xsVectorSet` function. It takes three
+To create a vector, use the `xsVectorSet` function. It takes three
 parameters: the x, y, and z coordinates of the vector.
 
 !!! note "Signature of `xsVectorSet`"
@@ -33,10 +33,9 @@ parameters: the x, y, and z coordinates of the vector.
 
 ## 2. Changing a specific component of a vector
 
-To change a specific component of a vector, we use `xsVectorSetX`,
-`xsVectorSetY`, or `xsVectorSetZ`, depending on which component we want to
-change. They take two parameters: the vector to change, and the new value of
-the component.
+To change a specific component of a vector, use `xsVectorSetX`, `xsVectorSetY`,
+or `xsVectorSetZ`, depending on which component you want to change. They take
+two parameters: the vector to change, and the new value of the component.
 
 !!! note "Signatures of vector setters"
 
@@ -66,9 +65,9 @@ the component.
 
 ## 3. Getting a specific component of a vector
 
-To get a specific component of a vector, we use `xsVectorGetX`,
-`xsVectorGetY`, or `xsVectorGetZ`, depending on which component we want to
-get. They take one parameter: the vector to get the component from.
+To get a specific component of a vector, use `xsVectorGetX`, `xsVectorGetY`,
+or `xsVectorGetZ`, depending on which component you want to get. They take one
+parameter: the vector to get the component from.
 
 !!! note "Signatures of vector getters"
 
