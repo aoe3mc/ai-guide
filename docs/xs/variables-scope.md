@@ -49,6 +49,8 @@ any function or rule in any file where the file containing the variable is
 included, provided that such function or rule is defined after the variable's
 definition.
 
+These variables are commonly referred to as **global variables**.
+
 !!! example "Global scoped variables."
 
     ```text title="Structure of the AI folder"
@@ -80,6 +82,8 @@ definition.
 
 Variables defined inside a function are function scoped. They can only be
 accessed from within the function.
+
+These variables are commonly referred to as **local variables**.
 
 !!! example "Function scoped variables."
 
