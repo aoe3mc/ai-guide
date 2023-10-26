@@ -117,7 +117,7 @@ nav:
           - Filename Constants: reference/constants/filename.md
           - Player Constants: reference/constants/player.md
           - Game Constants: reference/constants/game.md
-          - Game Mods: reference/constants/game-modes.md
+          - Game Modes: reference/constants/game-modes.md
           - Game Types: reference/constants/game-types.md
           - Starting Resources: reference/constants/starting-resources.md
           - Difficulties: reference/constants/difficulties.md
