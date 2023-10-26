@@ -203,10 +203,10 @@ nav:
               - Player Relations: reference/constants/player-relations.md
           - Resign Types: reference/constants/resign-types.md
           - Resource Gathering:
-              - Resource Gathering Systems: reference/constants/rgp.md
-              - Resource SubTypes: reference/constants/resource-subtypes.md
-              - Gatherer Limit: reference/constants/gatherer-limit.md
-              - TargetSelect Factor Constants: reference/constants/ts-factor.md
+              - Resource Gathering Systems: reference/constants/resource-gathering/rgp.md
+              - Resource SubTypes: reference/constants/resource-gathering/resource-subtypes.md
+              - Gatherer Limit: reference/constants/resource-gathering/gatherer-limit.md
+              - TargetSelect Factor Constants: reference/constants/resource-gathering/ts-factor.md
           - Starting Resources: reference/constants/starting-resources.md
           - Unit States: reference/constants/unit-states.md
           - Vector Constants: reference/constants/vector.md
