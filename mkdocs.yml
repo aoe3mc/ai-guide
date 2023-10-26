@@ -113,19 +113,96 @@ nav:
   - Reference:
       - Keywords: reference/keywords.md
       - Built-in Constants:
-          - Vector Constants: reference/constants/vector.md
-          - Filename Constants: reference/constants/filename.md
-          - Player Constants: reference/constants/player.md
-          - Game Constants: reference/constants/game.md
-          - Game Modes: reference/constants/game-modes.md
-          - Game Types: reference/constants/game-types.md
-          - Starting Resources: reference/constants/starting-resources.md
-          - Difficulties: reference/constants/difficulties.md
           - Ages: reference/constants/ages.md
-          - Player Relations: reference/constants/player-relations.md
           - Card Types: reference/constants/card-types.md
-          - Resource Gathering Systems: reference/constants/rgp.md
+          - Default Escrows: reference/constants/default-escrows.md
+          - Difficulties: reference/constants/difficulties.md
+          - Filename Constants: reference/constants/filename.md
+          - Game Constants:
+              - reference/constants/game.md
+              - Game Modes: reference/constants/game-modes.md
+              - Game Types: reference/constants/game-types.md
+          - Micromanagement: reference/constants/micromanagement.md
           - Nugget Types: reference/constants/nugget-types.md
+          - Opportunities:
+              - Opportunity Sources: reference/constants/opportunities/opportunity-sources.md
+              - Opportunity Types: reference/constants/opportunities/opportunity-types.md
+              - Opportunity Target Types: reference/constants/opportunities/opportunity-target-types.md
+          - Plans:
+              - Plan Types:
+                  - reference/constants/plans/plan-types.md
+                  - Attack Strategy Plans:
+                      - reference/constants/plans/attack-strategy-plans/index.md
+                  - Attack Plans:
+                      - reference/constants/plans/attack-plans/index.md
+                      - Attack Route Patterns: reference/constants/plans/attack-plans/attack-route-patterns.md
+                      - Base Attack Mode: reference/constants/plans/attack-plans/base-attack-mode.md
+                      - Retreat Mode: reference/constants/plans/attack-plans/retreat-modes.md
+                  - Build Plans:
+                      - reference/constants/plans/build-plans/index.md
+                  - Build Wall Plans:
+                      - reference/constants/plans/build-wall-plans/index.md
+                      - Wall Types: reference/constants/plans/build-wall-plans/wall-types.md
+                  - Combat Plans:
+                      - reference/constants/plans/combat-plans/index.md
+                      - Attack Route Patterns: reference/constants/plans/combat-plans/attack-route-patterns.md
+                      - Combat Types: reference/constants/plans/combat-plans/combat-types.md
+                      - Done Modes: reference/constants/plans/combat-plans/done-modes.md
+                      - Retreat Modes: reference/constants/plans/combat-plans/retreat-modes.md
+                      - Target Modes: reference/constants/plans/combat-plans/target-modes.md
+                  - Defend Plans:
+                      - reference/constants/plans/defend-plans/index.md
+                  - Explore Plans:
+                      - reference/constants/plans/explore-plans/index.md
+                  - Fish Plans:
+                      - reference/constants/plans/fish-plans/index.md
+                  - Gather Goal Plans:
+                      - reference/constants/plans/gather-goal-plans/index.md
+                  - Gather Plans:
+                      - reference/constants/plans/gather-plans/index.md
+                  - Goal Plans:
+                      - reference/constants/plans/goal-plans/index.md
+                      - Goal Types: reference/constants/plans/goal-plans/goal-types.md
+                      - Goal SubTypes: reference/constants/plans/goal-plans/goal-subtypes.md
+                      - Target Types: reference/constants/plans/goal-plans/target-types.md
+                  - Herd Plans:
+                      - reference/constants/plans/herd-plans/index.md
+                  - Mission Plans:
+                      - reference/constants/plans/mission-plans/index.md
+                      - Mission Types: reference/constants/plans/mission-plans/mission-types.md
+                  - Native Research Plans (a.k.a. Dance Plans):
+                      - reference/constants/plans/native-research-plans/index.md
+                  - Nugget Plans:
+                      - reference/constants/plans/nugget-plans/index.md
+                  - Progression Plans:
+                      - reference/constants/plans/progression-plans/index.md
+                  - Repari Plans:
+                      - reference/constants/plans/repair-plans/index.md
+                  - Research Plans:
+                      - reference/constants/plans/research-plans/index.md
+                  - Reserve Plans:
+                      - reference/constants/plans/reserve-plans/index.md
+                  - Tower Plans:
+                      - reference/constants/plans/tower-plans/index.md
+                  - Trade Plans:
+                      - reference/constants/plans/trade-plans/index.md
+                  - Train Plans:
+                      - reference/constants/plans/train-plans/index.md
+                  - Transport Plans:
+                      - reference/constants/plans/transport-plans/index.md
+                      - Path Types: reference/constants/plans/transport-plans/path-types.md
+              - Plan States: reference/constants/plans/plan-states.md
+              - Plan Events: reference/constants/plans/plan-events.md
+          - Player Constants:
+              - reference/constants/player.md
+              - Player Relations: reference/constants/player-relations.md
+          - Resource Gathering:
+              - Resource Gathering Systems: reference/constants/rgp.md
+              - Resource SubTypes: reference/constants/resource-subtypes.md
+              - Gatherer Limit: reference/constants/gatherer-limit.md
+              - TargetSelect Factor Constants: reference/constants/ts-factor.md
+          - Starting Resources: reference/constants/starting-resources.md
+          - Vector Constants: reference/constants/vector.md
       - Built-in Functions:
           - XS Functions: reference/functions/xs.md
           - KB Functions: reference/functions/kb.md
