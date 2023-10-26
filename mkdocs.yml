@@ -114,6 +114,7 @@ nav:
       - Keywords: reference/keywords.md
       - Built-in Constants:
           - Ages: reference/constants/ages.md
+          - Attack Routes: reference/constants/attack-routes.md
           - Building Placement:
               - Building Placement Events: reference/constants/building-placement/events.md
               - Building Placement Preferences: reference/constants/building-placement/preferences.md
