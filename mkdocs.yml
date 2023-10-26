@@ -220,6 +220,9 @@ nav:
           - Starting Resources: reference/constants/starting-resources.md
           - Techs:
               - Tech Statuses: reference/constants/techs/tech-statuses.md
+          - Trading Post Sockets:
+              - Socket States: reference/constants/sockets/socket-states.md
+              - Socket Types: reference/constants/sockets/socket-types.md
           - Units:
               - Abstract Unit Types: reference/constants/units/abstract-unit-types.md
               - Unit States: reference/constants/units/unit-states.md
