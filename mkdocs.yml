@@ -123,6 +123,7 @@ nav:
           - Card Types: reference/constants/card-types.md
           - Default Escrows: reference/constants/default-escrows.md
           - Difficulties: reference/constants/difficulties.md
+          - Events: reference/constants/events.md
           - Filename Constants: reference/constants/filename.md
           - Game Constants:
               - reference/constants/game.md
