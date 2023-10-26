@@ -114,6 +114,7 @@ nav:
       - Keywords: reference/keywords.md
       - Built-in Constants:
           - Ages: reference/constants/ages.md
+          - Area Group Types: reference/constants/area-group-types.md
           - Area Types: reference/constants/area-types.md
           - Attack Routes: reference/constants/attack-routes.md
           - Building Placement:
