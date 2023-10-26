@@ -198,6 +198,7 @@ nav:
           - Player Constants:
               - reference/constants/player.md
               - Player Relations: reference/constants/player-relations.md
+          - Resign Types: reference/constants/resign-types.md
           - Resource Gathering:
               - Resource Gathering Systems: reference/constants/rgp.md
               - Resource SubTypes: reference/constants/resource-subtypes.md
