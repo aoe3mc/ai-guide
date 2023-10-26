@@ -42,6 +42,7 @@ theme:
     code: Roboto Mono
   favicon: img/favicon.png
   icon:
+    annotation: material/plus-circle
     logo: material/book-open-page-variant
 
 plugins:
@@ -110,11 +111,21 @@ nav:
   - AI Scripting:
       - ai/index.md
   - Reference:
-      - reference/index.md
       - Keywords: reference/keywords.md
       - Built-in Constants:
-          - XS Constants: reference/constants/xs.md
-          - Game Data Constants: reference/constants/game-data.md
+          - Vector Constants: reference/constants/vector.md
+          - Filename Constants: reference/constants/filename.md
+          - Player Constants: reference/constants/player.md
+          - Game Constants: reference/constants/game.md
+          - Game Mods: reference/constants/game-modes.md
+          - Game Types: reference/constants/game-types.md
+          - Starting Resources: reference/constants/starting-resources.md
+          - Difficulties: reference/constants/difficulties.md
+          - Ages: reference/constants/ages.md
+          - Player Relations: reference/constants/player-relations.md
+          - Card Types: reference/constants/card-types.md
+          - Resource Gathering Systems: reference/constants/rgp.md
+          - Nugget Types: reference/constants/nugget-types.md
       - Built-in Functions:
           - XS Functions: reference/functions/xs.md
           - KB Functions: reference/functions/kb.md
