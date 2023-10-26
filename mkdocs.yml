@@ -123,6 +123,7 @@ nav:
               - Game Modes: reference/constants/game-modes.md
               - Game Types: reference/constants/game-types.md
           - Micromanagement: reference/constants/micromanagement.md
+          - Movement Types: reference/constants/movement-types.md
           - Nugget Types: reference/constants/nugget-types.md
           - Opportunities:
               - Opportunity Sources: reference/constants/opportunities/opportunity-sources.md
