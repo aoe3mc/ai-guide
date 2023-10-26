@@ -204,6 +204,7 @@ nav:
               - Gatherer Limit: reference/constants/gatherer-limit.md
               - TargetSelect Factor Constants: reference/constants/ts-factor.md
           - Starting Resources: reference/constants/starting-resources.md
+          - Unit States: reference/constants/unit-states.md
           - Vector Constants: reference/constants/vector.md
       - Built-in Functions:
           - XS Functions: reference/functions/xs.md
