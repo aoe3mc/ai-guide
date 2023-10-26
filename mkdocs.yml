@@ -114,6 +114,8 @@ nav:
       - Keywords: reference/keywords.md
       - Built-in Constants:
           - Ages: reference/constants/ages.md
+          - Building Placement:
+              - Building Placement Events: reference/constants/building-placement/events.md
           - Card Types: reference/constants/card-types.md
           - Default Escrows: reference/constants/default-escrows.md
           - Difficulties: reference/constants/difficulties.md
