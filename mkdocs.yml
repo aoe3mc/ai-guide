@@ -140,6 +140,7 @@ nav:
                       - Retreat Mode: reference/constants/plans/attack-plans/retreat-modes.md
                   - Build Plans:
                       - reference/constants/plans/build-plans/index.md
+                      - Build Plan Influence Falloff: reference/constants/plans/build-plans/bpi-falloff.md
                   - Build Wall Plans:
                       - reference/constants/plans/build-wall-plans/index.md
                       - Wall Types: reference/constants/plans/build-wall-plans/wall-types.md
