@@ -209,6 +209,8 @@ nav:
               - TargetSelect Factor Constants: reference/constants/resource-gathering/ts-factor.md
           - Resource Types: reference/constants/resource-types.md
           - Starting Resources: reference/constants/starting-resources.md
+          - Techs:
+              - Tech Statuses: reference/constants/techs/tech-statuses.md
           - Unit States: reference/constants/unit-states.md
           - Vector Constants: reference/constants/vector.md
       - Built-in Functions:
