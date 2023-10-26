@@ -121,6 +121,11 @@ nav:
               - Building Placement Events: reference/constants/building-placement/events.md
               - Building Placement Preferences: reference/constants/building-placement/preferences.md
           - Card Types: reference/constants/card-types.md
+          - Communication:
+              - Chat Verbs: reference/constants/communication/chat-verbs.md
+              - Response Types: reference/constants/communication/response-types.md
+              - Target Strategies: reference/constants/communication/target-strategies.md
+              - Target Types: reference/constants/communication/target-types.md
           - Default Escrows: reference/constants/default-escrows.md
           - Difficulties: reference/constants/difficulties.md
           - Events: reference/constants/events.md
