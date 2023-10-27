@@ -1,5 +1,10 @@
 # Variables Scope
 
+!!! warning "This section needs improvements."
+
+    Certain parts of this section are poorly worded, poorly illustrated and
+    might be confusing. Those will be updated at some point.
+
 Variable scope refers to the region of script from where a variable can be
 accessed. There are a few different scopes in XS:
 
