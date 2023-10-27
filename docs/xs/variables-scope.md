@@ -5,7 +5,7 @@ accessed. There are a few different scopes in XS:
 
 - File scope.
 - Global scope.
-- Function scope.
+- Local scope.
 
 ## 1. File Scope
 
@@ -78,14 +78,14 @@ These variables are commonly referred to as **global variables**.
     }
     ```
 
-## 3. Function Scope
+## 3. Local Scope
 
-Variables defined inside a function are function scoped. They can only be
-accessed from within the function.
+Variables defined inside a function are local to that function. They can only be
+accessed from within that function.
 
 These variables are commonly referred to as **local variables**.
 
-!!! example "Function scoped variables."
+!!! example "Local variables."
 
     ```cpp title="Age3AI.xs"
     void scopeTest(void)
