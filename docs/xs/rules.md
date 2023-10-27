@@ -245,7 +245,7 @@ All rules that have the same group name will be part of the same group.
 
     // Say goodbye after 10 seconds.
     rule SayGoodbye
-    group TimeElapsed
+    group rgCommunication
     inactive
     minInterval 10
     {

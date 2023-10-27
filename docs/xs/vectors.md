@@ -150,7 +150,7 @@ parameter: the vector to get the component from.
     void main(void)
     {
         vector a = xsVectorSet(1.0, 2.0, 3.0);
-        vector b = 2.0 * a;
+        vector b = 2.0 * a; // This will cause an error
 
         aiEcho("2 * a = " + b);
     }

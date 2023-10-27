@@ -7,7 +7,7 @@ are highly recommended to adhere to the following guidelines.
 
 In a script, a whitespace is one or more spaces, tabs or newlines, or any
 combination of these. Whitespace is used to separate tokens
-([keywords](../reference/keywords.md), [operators](operators.md),
+([keywords](../reference/keywords.md), [operators](operators.md) and
 identifiers, i.e. variable names, function names, etc.) from each other.
 
 The game only needs one space between tokens (or no whitespace at all in some
