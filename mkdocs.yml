@@ -112,6 +112,7 @@ nav:
     
     - AI Scripting:
         - ai/index.md
+        - Protounits: ai/protounits.md
     
     - Reference:
         - The XS Language:
