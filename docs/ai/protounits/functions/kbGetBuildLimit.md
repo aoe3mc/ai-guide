@@ -35,16 +35,3 @@ player. If the proto unit has no build limit, the function returns `#!cpp -1`.
         // Here the rest of the rule for building houses (irrelevant for this example)
     }
     ```
-
-!!! example "Example using `kbGetBuildLimit`"
-
-    ```cpp title="Age3AI.xs" hl_lines="4 6"
-    if (kbUnitIsType(builder, cUnitTypeAbstractWagon))
-    {
-        aiPlanSetDesiredPriority(house_build_plan, 100);
-        aiPlanSetVariableInt(house_build_plan, cBuildPlanBuildUnitID, 0, builder);
-        aiPlanAddUnitType(house_build_plan, kbUnitGetProtoUnitID(builder), 0, 0, 1);
-        aiPlanAddUnit(house_build_plan, builder);
-        aiPlanSetNoMoreUnits(house_build_plan, true);
-    }
-    ```
