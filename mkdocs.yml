@@ -16,7 +16,6 @@ theme:
     - content.code.copy
     - navigation.footer
     - navigation.indexes
-    - navigation.sections
     - navigation.tabs
     - navigation.top
     - navigation.tracking
@@ -112,7 +111,32 @@ nav:
     
     - AI Scripting:
         - ai/index.md
-    
+        - Protounits:
+            - ai/protounits/index.md
+            - Functions:
+                - kbGetProtoUnitID: ai/protounits/functions/kbGetProtoUnitID.md
+                - kbProtoUnitAvailable: ai/protounits/functions/kbProtoUnitAvailable.md
+                - kbCanPath2: ai/protounits/functions/kbCanPath2.md
+                - kbGetBuildLimit: ai/protounits/functions/kbGetBuildLimit.md
+                - kbGetPopCapAddition: ai/protounits/functions/kbGetPopCapAddition.md
+                - kbGetPopSlots: ai/protounits/functions/kbGetPopSlots.md
+                - kbGetPopulationSlotsByUnitTypeID: ai/protounits/functions/kbGetPopulationSlotsByUnitTypeID.md
+                - kbGetProtoUnitAICost: ai/protounits/functions/kbGetProtoUnitAICost.md
+                - kbGetProtoUnitName: ai/protounits/functions/kbGetProtoUnitName.md
+                - kbGetProtoUnitPopCount: ai/protounits/functions/kbGetProtoUnitPopCount.md
+                - kbGetUnitTypeName: ai/protounits/functions/kbGetUnitTypeName.md
+                - kbProtoUnitCanTrain: ai/protounits/functions/kbProtoUnitCanTrain.md
+                - kbProtoUnitGetAssociatedTech: ai/protounits/functions/kbProtoUnitGetAssociatedTech.md
+                - kbProtoUnitGetBounty: ai/protounits/functions/kbProtoUnitGetBounty.md
+                - kbProtoUnitGetBuildBounty: ai/protounits/functions/kbProtoUnitGetBuildBounty.md
+                - kbProtoUnitGetBuildPoints: ai/protounits/functions/kbProtoUnitGetBuildPoints.md
+                - kbProtoUnitGetGatherRate: ai/protounits/functions/kbProtoUnitGetGatherRate.md
+                - kbProtoUnitGetLOS: ai/protounits/functions/kbProtoUnitGetLOS.md
+                - kbProtoUnitGetPopCap: ai/protounits/functions/kbProtoUnitGetPopCap.md
+                - kbProtoUnitIsType: ai/protounits/functions/kbProtoUnitIsType.md
+                - kbUnitCostPerResource: ai/protounits/functions/kbUnitCostPerResource.md
+                - kbUnitGetTrainPoints: ai/protounits/functions/kbUnitGetTrainPoints.md
+
     - Reference:
         - The XS Language:
             - Keywords: reference/keywords.md
